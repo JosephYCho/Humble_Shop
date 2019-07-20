@@ -1,12 +1,9 @@
 import React from "react";
 import {
-  Collapse,
   Container,
   Navbar,
-  NavbarBrand,
-  NavbarToggler,
   NavItem,
-  NavLink
+  Row
 } from "reactstrap";
 import logo from "../../assets/Assets/logo.png";
 
@@ -14,9 +11,10 @@ class Hero extends React.Component {
   render() {
     return (
       <div id="hero-container">
+         
         <header>
           <Navbar>
-            <Container className="navbar">
+            <div className="navbar">
               <div className="nav-left">
                 <img src={logo} alt="Simpatra" />
               </div>
@@ -24,23 +22,17 @@ class Hero extends React.Component {
               <div className="nav-right">
                 <ul className="nav-items">
                   <NavItem>
-                    <NavLink className="text-dark nav-item" to="/toppings">
                       <a href="#" >Feature</a>
-                    </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink className="text-dark" to="/toppings">
                       <a href="#">Pricing</a>
-                    </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink className="text-dark" to="/toppings">
                       <a href="#">Your Cart</a>
-                    </NavLink>
                   </NavItem>
                 </ul>
               </div>
-            </Container>
+            </div>
           </Navbar>
         </header>
         <div className="text-container">
@@ -55,6 +47,7 @@ class Hero extends React.Component {
             care for your patients.
           </h2>
         </div>
+        
       </div>
     );
   }

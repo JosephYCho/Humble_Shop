@@ -1,0 +1,30 @@
+#product-container {
+  background: black;
+  //padding: 4rem;
+  width: 100%;
+  height: 100vh;
+  
+
+  .carousel {
+    position: relative;
+    top: 30%;
+    //margin-top:50%;
+    //background:red;
+  }
+  
+}
+
+.product-image {
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 5%;
+
+  //height: 100vh;
+  width: 60%;
+  float: right;
+}
+
+.product-text {
+  width: 40%;
+  float: left;
+}

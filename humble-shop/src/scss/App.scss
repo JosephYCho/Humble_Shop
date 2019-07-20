@@ -1,33 +1,39 @@
 @import "config";
 @import "hero";
+@import "product";
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+ // height: 100%;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 100;
+  color: white;
+  letter-spacing: 3px;
+
+  .bold-font {
+    font-weight: 700;
   }
+}
 
-  h1,
-  h2,
-  h3{
-    margin: 0;
-    font-weight: 100;
-    color:white;
-    letter-spacing: 3px;
+h1 {
+  font-size: 4rem;
+}
 
-    .bold-font{
-        font-weight:700;
-    }
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.App {
+    //position: relative;
     
-  }
-
-  h1{
-      font-size: 4rem;
-  }
-
-  a{
-      color:white;
-      text-decoration: none;
-  }
-
-  .App{
-
-  }
+}

@@ -1,33 +1,42 @@
-.App {
-  text-align: center;
-}
+#hero-container {
+  background: url(./assets/Assets/OrangeBar.jpg);
+  padding: 4rem; }
+  #hero-container .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center; }
+    #hero-container .navbar .nav-left img {
+      height: 5.5rem; }
+    #hero-container .navbar .nav-right .nav-items {
+      display: flex;
+      flex-direction: row; }
+      #hero-container .navbar .nav-right .nav-items .nav-item {
+        margin: 15px;
+        list-style: none; }
+  #hero-container .text-container {
+    position: relative;
+    margin: 9rem;
+    width: 50%; }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
+* {
+  box-sizing: border-box; }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 100;
   color: white;
-}
+  letter-spacing: 3px; }
+  h1 .bold-font,
+  h2 .bold-font,
+  h3 .bold-font {
+    font-weight: 700; }
 
-.App-link {
-  color: #61dafb;
-}
+h1 {
+  font-size: 4rem; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+a {
+  color: white;
+  text-decoration: none; }

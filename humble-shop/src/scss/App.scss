@@ -1,0 +1,33 @@
+@import "config";
+@import "hero";
+
+* {
+    box-sizing: border-box;
+  }
+
+  h1,
+  h2,
+  h3{
+    margin: 0;
+    font-weight: 100;
+    color:white;
+    letter-spacing: 3px;
+
+    .bold-font{
+        font-weight:700;
+    }
+    
+  }
+
+  h1{
+      font-size: 4rem;
+  }
+
+  a{
+      color:white;
+      text-decoration: none;
+  }
+
+  .App{
+
+  }

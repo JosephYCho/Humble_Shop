@@ -1,0 +1,42 @@
+#hero-container {
+  background: $background-image;
+  padding: 4rem;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+    .nav-left {
+      img {
+        height: 5.5rem;
+      }
+    }
+
+    .nav-right {
+      .nav-items {
+        display: flex;
+
+        flex-direction: row;
+
+        .nav-item {
+          margin: 15px;
+
+          list-style: none;
+        }
+      }
+    }
+  }
+
+  .text-container{
+      position: relative;
+      margin:9rem;
+      //margin:2rem;
+      //top:10%;
+     //left:10%;
+      width:50%;
+  }
+
+
+}

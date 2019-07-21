@@ -1,9 +1,7 @@
 import React from "react";
 import {
-  Container,
   Navbar,
   NavItem,
-  Row
 } from "reactstrap";
 import logo from "../../assets/Assets/logo.png";
 

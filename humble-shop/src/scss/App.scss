@@ -5,19 +5,20 @@
 * {
   box-sizing: border-box;
 }
-html,
+//html,
 body {
  // height: 100%;
   margin: 0;
+  line-height:1.7;
 }
 
 h1,
 h2,
 h3 {
   margin: 0;
-  font-weight: 100;
-  color: white;
-  letter-spacing: 3px;
+  // font-weight: 100;
+  // color: white;
+  // letter-spacing: 3px;
 
   .bold-font {
     font-weight: 700;

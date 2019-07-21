@@ -1,11 +1,16 @@
 #hero-container {
-   //position: block;
-   //height: auto;
-   //max-height: 1164px;
-   
+  h1,
+  h2,
+  h3 {
+    color: white;
+    font-weight: 100;
+    letter-spacing: 3px;
+
+
+  }
+
   background: $background-image;
   padding: 4rem;
-
 
   .navbar {
     display: flex;
@@ -27,21 +32,15 @@
 
         .nav-item {
           margin: 15px;
-
           list-style: none;
         }
       }
     }
   }
 
-  .text-container{
-      position: relative;
-      margin:9rem;
-      //margin:2rem;
-      //top:10%;
-     //left:10%;
-      width:50%;
+  .text-container {
+    position: relative;
+    margin: 9rem;
+    width: 50%;
   }
-
-
 }
